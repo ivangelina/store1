@@ -1,0 +1,87 @@
+@import "./variables";
+
+// Import custom font from Google
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import "~bootstrap/scss/bootstrap";
+@import "./card";
+@import "./forms";
+@import "./buyer";
+
+@import "~font-awesome/scss/font-awesome";
+
+html,body{
+  height:100%;
+}
+
+
+.builder-layout {
+  background-image: url(http://delianaangel.blog.bg/photos/118194/original/50.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+}
+
+.builder-overlay {
+  background-color: rgba(255,255,255,0.95);
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.5)
+}
+
+.buyer-layout {
+  background-image: url(http://delianaangel.blog.bg/photos/118194/original/50.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+}
+
+.buyer-overlay {
+  background-color: rgba(255,255,255,0.95);
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.5)
+}
+.price-layout {
+  background-image: url(http://delianaangel.blog.bg/photos/118194/original/50.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+}
+
+.price-overlay {
+  background-color: rgba(255,255,255,0.95);
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.5)
+}
+.calculator-layout {
+  background-image: url(http://delianaangel.blog.bg/photos/118194/original/50.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+}
+
+.calculator-overlay {
+  background-color: rgba(255,255,255,0.95);
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.5)
+}
+.conventorbg-layout {
+  background-image: url(http://delianaangel.blog.bg/photos/118194/original/50.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+}
+
+.conventorbg-overlay {
+  background-color: rgba(255,255,255,0.95);
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.5)
+}
